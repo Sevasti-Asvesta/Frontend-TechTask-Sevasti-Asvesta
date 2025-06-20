@@ -1,0 +1,21 @@
+.sidebar {
+  grid-area: sidebar;
+  display: flex;
+  flex-direction: column;
+  background-color: lavender;
+  padding: 1rem;
+}
+
+.sidebar-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.sidebar ul {
+  list-style-type: none;
+}
+
+.sidebar ul li {
+  margin-left: 0.5rem;
+  padding: 0.5rem 0;
+}
